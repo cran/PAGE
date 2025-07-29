@@ -1,7 +1,7 @@
 Package: PAGE
 Type: Package
 Title: Predictor-Assisted Graphical Models under Error-in-Variables
-Version: 0.1.0
+Version: 0.2.0
 Authors@R: c(
     person("Wan-Yi", "Chang", role=c("aut", "cre"), email="jessica306a@gmail.com"),
     person("Li-Pang", "Chen", role=c("aut"), email="lchen723@nccu.edu.tw")
@@ -17,6 +17,6 @@ Author: Wan-Yi Chang [aut, cre],
   Li-Pang Chen [aut]
 Maintainer: Wan-Yi Chang <jessica306a@gmail.com>
 NeedsCompilation: yes
-Packaged: 2025-07-18 02:25:38 UTC; user
+Packaged: 2025-07-29 15:36:15 UTC; user
 Repository: CRAN
-Date/Publication: 2025-07-21 08:42:18 UTC
+Date/Publication: 2025-07-29 16:00:02 UTC

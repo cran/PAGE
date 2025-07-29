@@ -15,7 +15,7 @@
 #' @param label_name The name of the response variables. The default value is TRUE, which reflects the labels from the input data. Else, users can input the required labels manually.
 #'
 #' @return
-#'   \item{B}{An estimator of B.}
+#'   \item{Beta}{An estimator of B.}
 #'   \item{gamma}{An estimator of the network in Y.}
 #'   \item{graph}{A visualization of the estimated network structure by gamma.}
 #'   \item{Beta_BICs}{A vector of Bayesian Information Criterion (BIC) weights for the model averaging estimator of B under candidate models alpha_1_list.}
