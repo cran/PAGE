@@ -115,7 +115,7 @@ Cond_Gaussian = function(W, Z, sigma_eta, sigma_delta, alpha_1, alpha_2,
   network::network.vertex.names(net) <- paste0("X", network::network.vertex.names(net))
   graph <- GGally::ggnet2(net, size = 10, node.color = "lightgray", label = label_name, label.size = 3, mode = "circle")
 
-  return(list(Beta = final_Beta, gamma = final_gamma, graph = graph,Beta_BICs = Beta_BICs, Gamma_BICs = Gamma_BICs))
+  return(list(B = final_Beta, gamma = final_gamma, graph = graph,Beta_BICs = Beta_BICs, Gamma_BICs = Gamma_BICs))
 }
 
 # initial of beta in equation

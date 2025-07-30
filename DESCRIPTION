@@ -1,7 +1,7 @@
 Package: PAGE
 Type: Package
 Title: Predictor-Assisted Graphical Models under Error-in-Variables
-Version: 0.2.0
+Version: 0.3.0
 Authors@R: c(
     person("Wan-Yi", "Chang", role=c("aut", "cre"), email="jessica306a@gmail.com"),
     person("Li-Pang", "Chen", role=c("aut"), email="lchen723@nccu.edu.tw")
@@ -10,13 +10,13 @@ Description: We consider the network structure detection for variables Y with au
 License: GPL-3
 Encoding: UTF-8
 Imports: glasso, lars, network, GGally, caret, randomForest, metrica,
-        MASS, stats
+        MASS, stats, RSQLite
 Suggests: sna
 RoxygenNote: 7.3.2
 Author: Wan-Yi Chang [aut, cre],
   Li-Pang Chen [aut]
 Maintainer: Wan-Yi Chang <jessica306a@gmail.com>
 NeedsCompilation: yes
-Packaged: 2025-07-29 15:36:15 UTC; user
+Packaged: 2025-07-29 23:04:46 UTC; user
 Repository: CRAN
-Date/Publication: 2025-07-29 16:00:02 UTC
+Date/Publication: 2025-07-30 11:40:02 UTC
